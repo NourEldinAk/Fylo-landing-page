@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+}
+
+header{
+font-family: 'Raleway', sans-serif;
+}
+
+#root,html ,body{
+  min-height: 100%;
+  min-width: 100%;
+  background-color: hsl(218, 28%, 13%)
+}
+
+.position-curve{
+  bottom: -175px;
+  left: 50px;
+}
+
+@layer components{
+.heading{
+  @apply text-xl font-bold mb-2
+}
+.grid-container div{
+  @apply w-[370px]
+}
+.footer span{
+@apply opacity-75  
+
+}
+.footer p{
+@apply opacity-75  
+}
+
+}
+
