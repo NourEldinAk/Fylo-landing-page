@@ -1,4 +1,4 @@
-import { Hero,Testimonials,Footer,Advertise,EarlyAccess,Features } from "./components"
+import { Hero,Testimonials,Footer,Advertise,Features } from "./components"
 
 function App() {
   
@@ -9,7 +9,6 @@ function App() {
   <Features/>
   <Advertise/>
   <Testimonials/>
-  <EarlyAccess/>
   <Footer/>
     </>
   )

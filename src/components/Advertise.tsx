@@ -11,7 +11,8 @@ const Advertise = () => {
         <h1 className='text-4xl font-bold leading-[40px]'>Stay productive,<br/> wherever you are</h1>
         <p className='opacity-80'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
         <p className='opacity-80'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required. </p>
-        <a ><span className='text-outerCyan border-b border-outerCyan pb-3 '>
+        <a  className='hover:brightness-200 cursor-pointer'><span className='text-outerCyan border-b border-outerCyan pb-3 hover:text-white 
+        hover:border-white '>
           See how Fylo works
           <img src={icon_arrow} alt="arrow"  className='inline ml-1'/>
            </span></a>

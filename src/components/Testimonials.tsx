@@ -5,7 +5,7 @@ import quotes from '/images/bg-quotes.png'
 
 const Testimonials = () => {
   return (
-    <div className="grid grid-cols-3 place-items-center text-white w-[1200px] mx-auto px-10 py-20 relative">
+    <div className="grid grid-cols-3 place-items-center text-white w-[1200px] max-[1230px]:w-full mx-auto px-10 py-20 relative mb-60 ">
         <img className='absolute left-12 top-10 z-0' src={quotes} alt="quotes" />
       <div className=" bg-darkBlue4 p-6 pt-10 grid gap-6 w-[350px] relative">
         <p className='opacity-80 relative '>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>

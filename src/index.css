@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 *{
   margin: 0;
   padding: 0;
@@ -26,6 +27,10 @@ font-family: 'Raleway', sans-serif;
   left: 50px;
 }
 
+.shadow-box{
+  box-shadow: 10px 4px 10px -7px black;
+}
+
 @layer components{
 .heading{
   @apply text-xl font-bold mb-2
@@ -39,6 +44,9 @@ font-family: 'Raleway', sans-serif;
 }
 .footer p{
 @apply opacity-75  
+}
+.footer li{
+  @apply opacity-75
 }
 
 }
