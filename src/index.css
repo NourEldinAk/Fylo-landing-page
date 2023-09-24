@@ -36,7 +36,8 @@ font-family: 'Raleway', sans-serif;
   @apply text-xl font-bold mb-2
 }
 .grid-container div{
-  @apply w-[370px]
+  @apply w-[370px] max-[1100px]:w-[300px]  mx-auto
+
 }
 .footer span{
 @apply opacity-75  
@@ -47,6 +48,15 @@ font-family: 'Raleway', sans-serif;
 }
 .footer li{
   @apply opacity-75
+}
+.features-mobile-container{
+  @apply grid-cols-1 mx-auto
+}
+.position-mobile{
+  @apply top-[-252px]
+}
+.position-desktop{
+  @apply top-[-34px] left-[-385px]
 }
 
 }

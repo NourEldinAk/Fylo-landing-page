@@ -9,8 +9,8 @@ const Features = () => {
     <>
     <div className="bg-darkBlue2 h-full w-[100%] py-14 relative mt-40">
 
-    <div className='h-full text-white w-[1000px] gap-14 mx-auto
-     bg-darkBlue2 grid grid-cols-2 items-center text-center z-20 relative grid-container'>
+    <div className='h-full text-white w-[70%] gap-14 mx-auto
+     bg-darkBlue2 grid grid-cols-2 max-[1100px]:features-mobile-container items-center text-center z-20 relative grid-container'>
       <div className='mx-10 '>
         <img src={Feature1} alt="Feature1" className='mx-auto mb-8' />
         <h1 className='heading'>Access your files, anywhere</h1>

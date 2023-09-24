@@ -2,19 +2,17 @@ import address_icon from '/images/icon-location.svg'
 import email_icon from '/images/icon-email.svg'
 import phone_icon from '/images/icon-phone.svg'
 import logo_icon from '/images/logo.svg'
-import { EarlyAccess } from '.'
 
 
 const Footer = () => {
   return (
     <div className='bg-darkBlue3 px-20 py-15 pt-40 relative w-full '>
 
-        <EarlyAccess/>
     <div className='footer  flex flex-col py-20  gap-10 '>
-      <div className="logo ml-24">
+      <div className="logo ml-24 max-[1100px]:ml-0">
         <img src={logo_icon} alt="Logo" />
       </div>
-      <div className='grid grid-cols-[25%,15%,12%,12%,10%] gap-20 text-white ml-24'>
+      <div className='grid grid-cols-[25%,15%,12%,12%,10%] max-[1100px]:grid-cols-1 gap-20 text-white ml-24 max-[1100px]:ml-0'>
         <div className="address flex  items-start gap-5">
           <img src={address_icon} alt="address" />
           <p className='opacity-75'> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
